@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Variables - Actividad 2.2.2.1</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Librería para renderizar ecuaciones matemáticas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor">
+            <span class="etiqueta">Actividad 2.2.2.1</span>
+            <h1>Cálculo de Variables</h1>
+            <div class="datos-alumno">
+                <p><strong>Nombre:</strong> Xochiquetzally Martínez</p>
+                <p><strong>Grupo:</strong> 141</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <p class="intro">
+            Representación gráfica de campos de direcciones y familias de curvas solución para modelos de Ecuaciones Diferenciales Ordinarias mediante GeoGebra.
+        </p>
+
+        <!-- Enunciado 1 -->
+        <article class="tarjeta-ejercicio">
+            <div class="info-ejercicio">
+                <h2>Enunciado 1: Difusión de calor</h2>
+                <p>
+                    Campo de direcciones para el modelo de difusión de calor según la Ley de Enfriamiento de Newton, evaluando comportamientos para valores de \( C \) desde \( -2 \) a \( 2 \):
+                </p>
+                <div class="ecuacion">
+                    $$ \frac{dT}{dt} = -k(T - T_{amb}) $$
+                </div>
+                <p class="detalle">
+                    Donde \( T \) es la temperatura del cuerpo, \( T_{amb} \) la temperatura ambiente y \( k \) la constante de enfriamiento.
+                </p>
+            </div>
+            <div class="contenedor-imagen">
+                <img src="img/grafica1.png" alt="Gráfica Enunciado 1 - Difusión de calor">
+            </div>
+        </article>
+
+        <!-- Enunciado 2 -->
+        <article class="tarjeta-ejercicio">
+            <div class="info-ejercicio">
+                <h2>Enunciado 2: Flujo en tubería horizontal</h2>
+                <p>
+                    Líneas de flujo de la velocidad del fluido en una tubería horizontal, explorando soluciones para \( C \) entre \( -5 \) y \( 5 \):
+                </p>
+                <div class="ecuacion">
+                    $$ \frac{dv}{dx} = -\frac{f}{2D} v|v| $$
+                </div>
+                <p class="detalle">
+                    Donde \( v \) es la velocidad, \( f \) el coeficiente de fricción y \( D \) el diámetro.
+                </p>
+            </div>
+            <div class="contenedor-imagen">
+                <img src="img/grafica2.png" alt="Gráfica Enunciado 2 - Flujo en tubería horizontal">
+            </div>
+        </article>
+
+        <!-- Enunciado 3 -->
+        <article class="tarjeta-ejercicio">
+            <div class="info-ejercicio">
+                <h2>Enunciado 3: Movimiento bajo fricción lineal</h2>
+                <p>
+                    Campo de direcciones para el movimiento de una partícula con fricción lineal, evaluando el comportamiento de las soluciones:
+                </p>
+                <div class="ecuacion">
+                    $$ \frac{dv}{dt} = -bv + F $$
+                </div>
+                <p class="detalle">
+                    Donde \( v \) es la velocidad, \( b \) la constante de fricción y \( F \) una fuerza constante.
+                </p>
+            </div>
+            <div class="contenedor-imagen">
+                <img src="img/grafica3.png" alt="Gráfica Enunciado 3 - Movimiento bajo fricción lineal">
+            </div>
+        </article>
+
+        <!-- Enunciado 4 -->
+        <article class="tarjeta-ejercicio">
+            <div class="info-ejercicio">
+                <h2>Enunciado 4: Crecimiento poblacional logístico</h2>
+                <p>
+                    Campo de trayectorias para el modelo de crecimiento poblacional logístico, analizando comportamientos para \( C \) desde \( 0 \) a \( 6 \) en millones de personas:
+                </p>
+                <div class="ecuacion">
+                    $$ \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right) $$
+                </div>
+                <p class="detalle">
+                    Donde \( N \) es la población, \( r \) la tasa de crecimiento y \( K \) la capacidad máxima.
+                </p>
+            </div>
+            <div class="contenedor-imagen">
+                <img src="img/grafica4.png" alt="Gráfica Enunciado 4 - Crecimiento poblacional logístico">
+            </div>
+        </article>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Xochiquetzally • Grupo 141 • Cálculo de Variables</p>
+    </footer>
+
+</body>
+</html>
